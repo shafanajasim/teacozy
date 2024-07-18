@@ -1,0 +1,166 @@
+/* UNIVERSAL RULESETS */
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+.hero,
+.tea-of-the-month,
+.locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container,
+.locations-container {
+    width: 1200px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEADER RULESETS */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    margin: 0;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.tea-logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.nav-link {
+    color: gray;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.hero {
+    position: relative;
+    top:70px;
+    margin-bottom: 70px;
+}
+
+
+.hero-container {
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.hero-header {
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* TEA OF THE MONTH RULESETS */
+
+.tea-of-the-month {
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.tea-header {
+    width: 1000px;
+    text-align: center;
+}
+
+.tea-grid {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 70px;
+}
+
+.featured-tea-box {
+    width: 300px;
+    margin: 0 15px;
+}
+
+.featured-tea-image {
+    height: 200px;
+}
+
+.card-h4 {
+    margin-top: 10px;
+}
+
+/* LOCATIONS RULESETS */
+
+.locations-container {
+    min-height: 500px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    flex-direction: column;
+}
+
+
+.location-h2 {
+    margin-bottom: 15px;
+}
+
+.locations-grid {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.location-card {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+/* FOOTER RULESETS */
+
+.foot-center {
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    line-height: 10%;
+}
+
+.align-left {
+    text-align: left;
+    margin-left: 20px;
+    line-height: normal;
+}
